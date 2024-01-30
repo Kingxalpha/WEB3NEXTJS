@@ -3,8 +3,8 @@ import React from 'react'
 
 const Available = () => {
   return (
-    <div className='flex flex-col gap-5 text-center items-center justify-center'>
-      <div className='flex flex-col items-center justify-center gap-3 sm:p-3'>
+    <div className='flex flex-col gap-[40px] items-center justify-center bg-[#0E1939] p-3'>
+      <div className='flex flex-col items-center justify-center gap-3 sm:p-3 text-center'>
         <h1 className='text-white text-3xl font-extrabold w-[40%] sm:w-full sm:text-xl'>Available Web3 events coming up in kwara state</h1>
         <p className='text-[gray] text-lg w-[60%] sm:w-full sm:text-sm'>Our event brings together experts, enthusiasts, and industry leaders for insightful discussions, hands-on workshops, and networking opportunities.</p>
       </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
           </div>
           <ul className='flex gap-3 text-white sm:hidden md:hidden text-2xl'>
             <li className='cursor-pointer hover:text-[#48CAE4]'>
-              <Link href={""}>
+              <Link href="/">
                 Home
               </Link>
             </li>
@@ -34,15 +34,15 @@ const Navbar = () => {
           <button className='bg-Button pt-2 pb-2 pl-3 pr-3 rounded-xl text-white  lg:hidden sm:block transition duration-150 ease-in-out'>
             {isMenuOpen ? <RxCross1/> : <AiOutlineMenu /> }
           </button>
-          <button className='bg-Button pt-2 pb-2 pl-3 pr-3 rounded-xl md:hidden sm:hidden text-white'>Join Us</button>
+          <button className='bg-Button pt-2 pb-2 pl-3 pr-3 text-lg rounded-xl md:hidden sm:hidden text-white'>Join Us</button>
         </nav>
-    </div>
+      </div>
       <ul className={`${isMenuOpen? "block" : "hidden"  } flex flex-col gap-3 items-center justify-center mt-2 text-white h-[30vh] transition duration-300 ease-in-out lg:hidden`}>
         <li className='cursor-pointer hover:text-[#48CAE4]'>Home</li>
         <li className='cursor-pointer hover:text-[#48CAE4]'>About</li>
         <li className='cursor-pointer hover:text-[#48CAE4]'>Event</li>
         <button className='bg-Button pt-2 pb-2 pl-3 pr-3 rounded-xl text-white w-[30%]'>Join Us</button>
-        </ul>
+      </ul>
     </div>
   )
 }

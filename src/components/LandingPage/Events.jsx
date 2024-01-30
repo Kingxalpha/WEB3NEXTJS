@@ -7,13 +7,13 @@ const Events = () => {
         <div className='flex justify-around text-white items-center sm:p-3'>
             <div className='flex flex-col gap-3'>
                 <h2>Events</h2>
-                <h1 className='text-4xl w-[90%] sm:text-lg'>Connect, share, learn</h1>
+                <h1 className='text-4xl w-[90%] sm:text-lg sm:w-full'>Connect, share, learn</h1>
             </div>
             <div>
-                <button className='border border-Button p-2 rounded-lg'>View All Events</button>
+                <button className='border border-Button p-2 rounded-lg sm:p-1'>View All Events</button>
             </div>
         </div>
-        <div className='flex flex-col gap-[50px] pl-[15%] pr-[15%]'>
+        <div className='flex flex-col gap-[50px] pl-[15%] pr-[15%] sm:p-[5%]'>
             <div className='flex md:flex-col sm:flex-col justify-around gap-10 text-white'>
                 <div className='w-full flex flex-col gap-3'>
                     <Image height={100} width={100} src={"/Event1.png"} className='h-[20vh] w-[100%]'/>

@@ -8,7 +8,7 @@ const Organizers = () => {
             <Image height={50} width={50} src={"/7.png"}/>
             <p>Organisers</p>
         </div>
-        <h1 className='text-2xl pl-[50px]'>Meet Our Organisers</h1>
+        <h1 className='text-2xl pl-[50px] sm:p-[5%]'>Meet Our Organisers</h1>
         <div className='flex justify-around w-full mt-[40px] md:flex-col sm:flex-col sm:gap-[30px]'>
             <div className='bg-[#0E1939] p-[50px] rounded-lg flex flex-col gap-3 items-center'>
                 {/* <Image height={100} width={100} src={"/JoysImg.png"} className='relative bottom-[45%]'/> */}

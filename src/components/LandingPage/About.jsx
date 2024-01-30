@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex text-white justify-around w-full items-center pl-[13%] pr-[13%] mt-5 sm:flex-col'>
+    <div className='flex text-white justify-around w-full items-center pl-[13%] pr-[13%] mt-5 sm:flex-col sm:pr-3 sm:pl-3'>
         <div className='w-full'>
             <Image height={150} width={150} src={"/About.png"} className='w-[80%] h-[60vh]'/>
         </div>
